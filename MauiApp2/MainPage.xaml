@@ -17,4 +17,4 @@
                 Clicked = "OnCall"/>
         </VerticalStackLayout>
 
-        </contentpage> 
+</ContentPage> 

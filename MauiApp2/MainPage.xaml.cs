@@ -2,7 +2,7 @@
 {
     public partial class MainPage : ContentPage
     {
-        string translatednumber;
+        string translatedNumber;
 
         public MainPage()
         {
@@ -12,7 +12,7 @@
         private void OnTranslate(object sender, EventArgs e)
         {
             string enteredNumber = PhoneNumberText.Text;
-            translatedNumber = MauiApp2.PhonewordTranslator.ToNumber(enteredNumber);
+            translatedNumber = PhonewordTranslator.ToNumber(enteredNumber);
 
             if (!string.IsNullOrEmpty(translatedNumber))
             {
